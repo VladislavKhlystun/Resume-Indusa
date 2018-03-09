@@ -11,5 +11,5 @@ gulp.task('css', function() {
       require('cssnano'),
       require('css-mqpacker')
     ]))
-    .pipe(gulp.dest('css/final'));
+    .pipe(gulp.dest('css'));
 });
